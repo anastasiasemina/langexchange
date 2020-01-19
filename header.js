@@ -17,9 +17,11 @@ class Header extends React.Component {
             <div className="container">
               <nav>
                 <ul>
+                  <button onClick={() => this.props.history.push('/login')}>Login</button>
                   <li><a href="#">Homepage</a></li>
                   <li><a href="#">Community</a></li>
                   <li><a href="#">Learning space</a></li>
+                  <li><a href="#">Testing</a></li>
                 </ul>
               </nav>
             </div>

@@ -13,7 +13,6 @@ class App extends React.Component {
   render () {
     return (
     <div className="App">
-       <button onClick={() => this.props.history.push('/login')}>Login</button>
        <Header />
        <Login />
     </div>

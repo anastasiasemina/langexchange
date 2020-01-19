@@ -24,7 +24,7 @@ class Login extends Component {
     render (){
         return <div className="login-container">
             <h1>
-                { this.state.isLoginView ? 'Login' : 'Register' }
+                { this.state.isLoginView ? 'Login' : 'Sign up' }
                 </h1>
             <span>Username</span><br/>
             <input type="text" name="username" value={this.state.credentials.username}
@@ -33,7 +33,7 @@ class Login extends Component {
                 <input type="password" name="password" value={this.state.credentials.password}
                     onChange={this.inputChanged}/><br/>    
             <button onClick={this.login}>
-            { this.state.isLoginView ? 'Login' : 'Register' }
+            { this.state.isLoginView ? 'Login' : 'Sign up' }
             </button>
             <p onClick={this.toggleView}>
                 { this.state.isLoginView ? 'Create Account' : 'back to Login' }    

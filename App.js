@@ -1,13 +1,24 @@
-import React from 'react';
+import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
 import './App.css';
+
 import Login from './components/login'
-function App() {
-  return (
+import Header from './Header/header'
+
+
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+  render () {
+    return (
     <div className="App">
-       <h1>Langexchange</h1>
+       <button onClick={() => this.props.history.push('/login')}>Login</button>
+       <Header />
        <Login />
     </div>
   );
+  }
 }
 
 export default App;

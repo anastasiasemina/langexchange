@@ -1,0 +1,32 @@
+header{background-color: #282c34;} 
+
+.top-bar {
+  padding: 0px;
+  font-size: 16px;
+  border-bottom: .4px solid #e99292;
+  min-height: 40px;
+}
+.main-header {
+  padding: 20px 0 25px;
+}
+.site-title {
+  color: rgb(206, 145, 145);
+  font-size: 60px;
+}
+.header-nav {
+  background: rgb(99, 173, 127);
+}
+.header-nav li{
+  display: inline-block;
+  padding: 15px 25px 15px;
+}
+
+.header-nav li a, .header-nav li a:visited {
+  color: rgb(209, 198, 138);
+  text-decoration: none;
+  display: block;
+}
+.header-nav li:hover {
+  background: rgb(114, 101, 189);
+}
+ 
